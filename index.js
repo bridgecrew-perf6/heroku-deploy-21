@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send('server is running')
+    res.send('server is running at the heroku project')
 })
 
 // user: dbuser1
